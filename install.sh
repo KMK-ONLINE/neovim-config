@@ -17,7 +17,7 @@ git clone $NEOVIM_REPO $NEOVIM_DIR;
 git clone $VUNDLE_REPO $VUNDLE_DIR;
 
 # create symlinks
-ln -sf "${NEOVIM_DIR}/.nvimrc" ~/.nvimrc
+ln -sf "${NEOVIM_DIR}/nvimrc" ~/.nvimrc
 
 # Install bundle with vundle
 nvim +PluginInstall +qall
