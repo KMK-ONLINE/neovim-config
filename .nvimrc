@@ -1,3 +1,18 @@
+" === GUI ===
+
+" Use gui tabs
+set guioptions+=e
+
+" kill the menubar
+set guioptions-=T
+set guioptions-=m
+
+" kill scrollbars
+set guioptions-=r
+set guioptions-=L
+
+" color scheme
+colorscheme desert
 
 " === GENERAL ==
 
@@ -12,6 +27,7 @@ set showcmd
 
 " highlight matching brackets
 set showmatch
+
 
 " scroll the window when we get near the edge
 set scrolloff=4 sidescrolloff=10
@@ -126,6 +142,9 @@ call vundle#begin('~/.neovim/bundle')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+
+" Toggle the cursorshape in the terminal
+Plugin 'jszakmeister/vim-togglecursor'
 
 " Provides easy to use, file-type sensible comments for Vim.
 Plugin 'tomtom/tcomment_vim'
