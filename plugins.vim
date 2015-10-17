@@ -3,11 +3,11 @@
 " required by vunddle
 filetype off                  " required
 
-set rtp+=~/.neovim/bundle/Vundle.vim/
+set rtp+=~/.nvim/bundle/Vundle.vim/
 
 
 " required by vunddle
-call vundle#begin('~/.neovim/bundle')
+call vundle#begin('~/.nvim/bundle')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'

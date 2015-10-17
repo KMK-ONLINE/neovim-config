@@ -1,6 +1,8 @@
-colorscheme slate
-source ~/.neovim/general.vim
-source ~/.neovim/plugins.vim
-source ~/.neovim/functions.vim
-source ~/.neovim/key_mappings.vim
+" Compatible with both terminal dan GUI (neovim-qt)
+colorscheme lucius
+
+source ~/.nvim/general.vim
+source ~/.nvim/plugins.vim
+source ~/.nvim/functions.vim
+source ~/.nvim/key_mappings.vim
 
