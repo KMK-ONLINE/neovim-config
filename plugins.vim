@@ -110,15 +110,23 @@ let g:surround_61 = "<%= \r %>"
 " Multiple Cursor
 Plugin 'terryma/vim-multiple-cursors.git'
 
+" Lean & Mean status/tabline
+Plugin 'bling/vim-airline'
+let g:airline_powerline_fonts = 1
+
+" Git plugin
+Plugin 'tpope/vim-fugitive'
+
 " Blade syntax highlighting
 Plugin 'xsbeats/vim-blade'
 
 " facebook
 Plugin 'mxw/vim-xhp'
 Plugin 'hhvm/vim-hack'
-
-" Git plugin
-Plugin 'tpope/vim-fugitive'
+autocmd FileType php set tabstop=4|set softtabstop=4|set shiftwidth=4
+autocmd FileType hack set tabstop=4|set softtabstop=4|set shiftwidth=4
+au BufEnter *.php set ai sw=4 ts=4 sta et fo=croql
+au BufEnter *.hh set ai sw=4 ts=4 sta et fo=croql
 
 " Javascript plugin
 Plugin 'pangloss/vim-javascript'
