@@ -10,7 +10,6 @@ nmap <Leader>W :set nowrap<cr>
 " go to the alternate file (previous buffer) with g-enter
 " nmap g
 
-
 " shortcuts for frequenly used files
 nmap gs :e db/schema.rb<cr>
 nmap gr :e config/routes.rb<cr>
@@ -21,10 +20,16 @@ nmap go o<esc>
 nmap gO O<esc>
 
 " mapping the jumping between splits. Hold control while using vim nav.
-nmap <C-J> <C-W>j
-nmap <C-K> <C-W>k
-nmap <C-H> <C-W>h
-nmap <C-L> <C-W>l
+nmap <C-j> <C-W>j
+nmap <C-k> <C-W>k
+nmap <C-h> <C-W>h
+nmap <C-l> <C-W>l
+
+" Alternative for terminal
+nmap <A-j> <C-W>j
+nmap <A-k> <C-W>k
+nmap <A-h> <C-W>h
+nmap <A-l> <C-W>l
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
