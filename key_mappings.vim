@@ -31,6 +31,17 @@ nmap <A-k> <C-W>k
 nmap <A-h> <C-W>h
 nmap <A-l> <C-W>l
 
+" Terminal navigation remap
+:tnoremap <Esc> <C-\><C-n>
+:tnoremap <A-j> <C-W>j
+:tnoremap <A-k> <C-W>k
+:tnoremap <A-h> <C-W>h
+:tnoremap <A-l> <C-W>l
+:tnoremap <C-j> <C-W>j
+:tnoremap <C-k> <C-W>k
+:tnoremap <C-h> <C-W>h
+:tnoremap <C-l> <C-W>l
+
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
 
