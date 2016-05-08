@@ -44,7 +44,7 @@ nmap <Leader>qs <Plug>DashSearch
 nmap <Leader>qa <Plug>DashGlobalSearch
 
 " Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 nnoremap <c-b> :<C-U>CtrlPBuffer<CR>
 
 " AG aka The Silver Searcher
